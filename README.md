@@ -1,4 +1,4 @@
-# ASCII-Art-Generator
+# ASCII Art Generator
 
 A lightweight Streamlit web application that converts images into ASCII art.
 

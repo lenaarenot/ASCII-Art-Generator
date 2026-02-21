@@ -57,4 +57,4 @@ Photographic images may produce less detailed results due to limited tonal compr
 python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
-streamlit run ascii_art.py
+streamlit run python_code/ascii_art.py

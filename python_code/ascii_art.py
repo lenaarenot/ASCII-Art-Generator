@@ -14,3 +14,10 @@ if uploaded_file is not None:
     width_slider = st.slider("Output width", 50, 200, 100)
     ascii_art = image_to_ascii(image, new_width=width_slider)
     st.code(ascii_art, language=None)
+
+    st.download_button(
+        label="Download ASCII as .txt",
+        data=ascii_art,
+        file_name="ascii_output.txt",
+        mime="text/plain"
+    )
